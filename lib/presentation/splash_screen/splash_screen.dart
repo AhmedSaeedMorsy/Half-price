@@ -44,13 +44,13 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ColorManager.white,
+      backgroundColor: ColorManager.black,
       body: SizedBox(
         child: Center(
           child: Image(
             width: AppSize.s250.w,
             image: const AssetImage(
-              AssetsManager.logo,
+              AssetsManager.logoWhite,
             ),
           ),
         ),
